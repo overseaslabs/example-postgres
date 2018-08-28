@@ -91,6 +91,9 @@ function addUser {
 
 #create the users/databases
 addUser ${UREG_DS_USER} ${UREG_DS_PASS} ${UREG_DS_DB}
+addUser ${MAILER_DS_USER} ${MAILER_DS_PASS} ${MAILER_DS_DB}
+addUser ${POLLING_USER} ${POLLING_PASS} ${POLLING_DB}
+addUser ${KONG_PG_USER} ${KONG_PG_PASSWORD} ${KONG_PG_DATABASE}
 
 echo "Initialization finished";
 
