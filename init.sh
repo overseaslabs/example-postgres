@@ -94,6 +94,7 @@ addUser ${UREG_DS_USER} ${UREG_DS_PASS} ${UREG_DS_DB}
 addUser ${MAILER_DS_USER} ${MAILER_DS_PASS} ${MAILER_DS_DB}
 addUser ${POLLING_USER} ${POLLING_PASS} ${POLLING_DB}
 addUser ${KONG_PG_USER} ${KONG_PG_PASSWORD} ${KONG_PG_DATABASE}
+addUser ${KONGA_DS_USER} ${KONGA_DS_PASS} ${KONGA_DS_DB}
 
 echo "Initialization finished";
 
